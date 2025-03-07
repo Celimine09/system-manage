@@ -4,6 +4,7 @@ import Register from "./pages/Register";
 import AdminDashboard from "./pages/AdminDashboard";
 import UserDashboard from "./pages/UserDashboard";
 import ManagerDashboard from "./pages/ManagerDashboard";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/admin" element={<AdminDashboard />} />
       <Route path="/user" element={<UserDashboard />} />
       <Route path="/manager" element={<ManagerDashboard />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }

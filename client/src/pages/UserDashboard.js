@@ -24,6 +24,7 @@ const UserDashboard = () => {
     <div><center>
       <h1>Welcome, {user.username}</h1>
       <p>Your role: {user.role}</p>
+      <button onClick={() => navigate("/profile")}>Go to Profile</button>
       <button onClick={() => {
         localStorage.removeItem("user");
         navigate("/login");
